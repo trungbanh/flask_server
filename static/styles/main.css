@@ -1,0 +1,43 @@
+:root {
+    --pading-top : 15px ;
+    --width:600px;
+    --margin: auto auto;
+}
+body {
+    color: darkblue;
+    background-color:whitesmoke;
+}
+.lable {
+    display: grid;
+    text-align: center;
+    margin: var(--margin);
+    width: var(--width);
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(1, 100px);
+
+}
+.lable>div:hover {
+    color: aqua;
+}
+.option1 {
+    padding-top: var(--pading-top);
+}
+.option2 {
+    padding-top: var(--pading-top);
+}
+.option3 {
+    padding-top: var(--pading-top);
+}
+.option4 {
+    padding-top: var(--pading-top);
+}
+.option5 {
+    padding-top: var(--pading-top);
+}
+.name {
+    margin: var(--margin);
+    width: var(--width);
+    size: 100px ;
+    font-size: 30px;
+}
+
